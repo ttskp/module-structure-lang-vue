@@ -1,0 +1,43 @@
+{
+  "name": "module-structure-lang-vue",
+  "version": "1.0.0",
+  "description": "Vue language provider for module-structure.",
+  "scripts": {
+    "build-dev": "tsc -p .",
+    "build-prod": "npm run clean-js && npm run clean-dist && tsc -p tsconfig.prod.json --outDir dist",
+    "clean-dist": "rimraf dist/",
+    "clean-js": "rimraf src/**/*.js && rimraf src/**/*.js.map",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttskp/module-structure-lang-vue.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttskp/module-structure-lang-vue/issues"
+  },
+  "homepage": "https://github.com/ttskp/module-structure-lang-vue#readme",
+  "extensions": {
+    "module-structure:language": {
+      "vue": "./dist/vue-dependency-provider"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "@types/node": "^10.12.18",
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@vue/component-compiler-utils": "^2.5.0",
+    "enhanced-resolve": "^4.1.0",
+    "konan": "^1.2.1",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "files": [
+    "dist"
+  ]
+}
