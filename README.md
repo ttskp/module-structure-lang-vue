@@ -1,4 +1,4 @@
-# module-structure-lang-js
+# module-structure-lang-vue
 
 Vue language provider for <a href="https://www.npmjs.com/package/module-structure">module-structure</a>. 
 
