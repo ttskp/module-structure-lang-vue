@@ -1,5 +1,8 @@
 # module-structure-lang-vue
 
+
+<a href="https://www.npmjs.com/package/module-structure-lang-vue"><img alt="npm Version" src="https://img.shields.io/npm/v/module-structure-lang-vue.svg"></a>
+
 Vue language provider for <a href="https://www.npmjs.com/package/module-structure">module-structure</a>. 
 
 See <a href="https://www.npmjs.com/package/module-structure">module-structure</a> for full documentation.
