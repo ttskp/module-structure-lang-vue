@@ -21,6 +21,6 @@ jobs:
 
     - run: npm ci
 
-    - run: npm run build-test
+    - run: npm run build-dev
 
     - run: npm test
