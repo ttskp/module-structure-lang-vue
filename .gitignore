@@ -4,3 +4,5 @@ node_modules/
 src/**/*.js*
 test/src/*.js*
 *.tgz
+/test/resources/ts/sample.js
+/test/resources/ts/sample.js.map

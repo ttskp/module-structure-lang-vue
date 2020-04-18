@@ -65,6 +65,14 @@ Config parameter:
         </td>
     </tr>
     <tr>
+        <td>@typescript-eslint/typescript-estree</td>
+        <td align="right">
+            <a href="https://www.npmjs.com/package/@typescript-eslint/typescript-estree">homepage</a>
+            &nbsp;-&nbsp;
+            <a href="https://github.com/typescript-eslint/typescript-eslint/blob/master/LICENSE">show license</a>
+        </td>
+    </tr>
+    <tr>
         <td>vue-template-compiler</td>
         <td align="right">
             <a href="https://www.npmjs.com/package/vue-template-compiler">homepage</a>
