@@ -9,7 +9,7 @@ import {
     AST_NODE_TYPES as TYPESCRIPT_NODE_TYPES,
     parse as parseTypeScript}
     from '@typescript-eslint/typescript-estree';
-import {Literal, TSExternalModuleReference} from "@typescript-eslint/typescript-estree/dist/ts-estree/ts-estree";
+import type {Literal, TSExternalModuleReference} from "@typescript-eslint/types/dist/ast-spec";
 import {SFCBlock} from "@vue/component-compiler-utils/lib/parse";
 
 
