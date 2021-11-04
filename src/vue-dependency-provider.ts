@@ -118,7 +118,7 @@ export class VueDependencyProvider {
     private resolve(request, path): string {
         try{
             const moduleDirectory = dirname(path);
-            const absPath = this.myResolver(undefined, moduleDirectory, request);
+            const absPath = this.myResolver({}, moduleDirectory, request);
             return relative(moduleDirectory, absPath);
         }
         catch {
