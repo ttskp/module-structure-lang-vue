@@ -33,7 +33,7 @@
   "dependencies": {
     "@typescript-eslint/typescript-estree": "^5.3.0",
     "@vue/component-compiler-utils": "^3.1.2",
-    "enhanced-resolve": "^4.1.1",
+    "enhanced-resolve": "^5.8.3",
     "konan": "^2.1.1",
     "preconditions": "^3.0.0",
     "ts-jest": "^27.0.7",
