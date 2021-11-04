@@ -35,7 +35,7 @@
     "@typescript-eslint/typescript-estree": "^2.28.0",
     "@vue/component-compiler-utils": "^3.1.2",
     "enhanced-resolve": "^4.1.1",
-    "konan": "^1.2.1",
+    "konan": "^2.1.1",
     "preconditions": "^2.2.3",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
