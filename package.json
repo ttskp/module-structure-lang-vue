@@ -1,6 +1,6 @@
 {
   "name": "module-structure-lang-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue language provider for module-structure.",
   "scripts": {
     "build-dev": "tsc -p .",
