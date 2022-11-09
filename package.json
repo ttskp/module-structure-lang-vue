@@ -37,7 +37,7 @@
     "konan": "^2.1.1",
     "preconditions": "^3.0.0",
     "ts-jest": "^27.0.7",
-    "vue": "^2.6.11",
+    "vue": "^3.2.43",
     "vue-template-compiler": "^2.6.11"
   },
   "files": [
